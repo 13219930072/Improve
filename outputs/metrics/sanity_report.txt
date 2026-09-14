@@ -1,0 +1,36 @@
+sanity check — method/perimg: REPRODUCED, rows=655, expected=655
+[PASS] N_total: rows=655, expected=655
+[PASS] N_TNO: n=25, expected=25
+[PASS] N_RoadScene: n=50, expected=50
+[PASS] N_M3FD: n=300, expected=300
+[PASS] N_FMB: n=280, expected=280
+[PASS] no_dup_id: unique_pairs=655 rows=655
+[PASS] no_missing_ID_TNO: missing=无
+[PASS] no_missing_ID_RoadScene: missing=无
+[PASS] no_missing_ID_M3FD: missing=无
+[PASS] no_missing_ID_FMB: missing=无
+[PASS] finite_EN: NaN=0 Inf=0
+[PASS] range_EN: mean=6.865217 ∈ [0.0, 8.0] (信息熵:8bit 灰度 ≤ 8)
+[PASS] order_EN: min=5.574829 <= mean=6.865217 <= max=7.735064
+[PASS] finite_SD: NaN=0 Inf=0
+[PASS] range_SD: mean=38.529716 ∈ [0.0, 255.0] (标准差:uint8 图像 ≤ 255)
+[PASS] order_SD: min=18.337912 <= mean=38.529716 <= max=72.312990
+[PASS] finite_SF: NaN=0 Inf=0
+[PASS] range_SF: mean=15.087668 ∈ [0.0, None] (空间频率 ≥ 0)
+[PASS] order_SF: min=3.572446 <= mean=15.087668 <= max=32.134140
+[PASS] finite_MI: NaN=0 Inf=0
+[PASS] range_MI: mean=3.204525 ∈ [0.0, None] (互信息 ≥ 0)
+[PASS] order_MI: min=0.990270 <= mean=3.204525 <= max=4.634119
+[PASS] finite_SCD: NaN=0 Inf=0
+[PASS] range_SCD: mean=1.494280 ∈ [-2.0, 2.0] (corr(f,ir)-corr(f,vi),各∈[-1,1])
+[PASS] order_SCD: min=0.668269 <= mean=1.494280 <= max=1.933734
+[PASS] finite_VIF: NaN=0 Inf=0
+[PASS] range_VIF: mean=0.855309 ∈ [0.0, None] (视觉信息保真 ≥ 0)
+[PASS] order_VIF: min=0.383596 <= mean=0.855309 <= max=1.349983
+[PASS] finite_Qabf: NaN=0 Inf=0
+[PASS] range_Qabf: mean=0.647053 ∈ [0.0, None] (边缘保持 ≥ 0(overflow 警告属正常,见文档))
+[PASS] order_Qabf: min=0.372292 <= mean=0.647053 <= max=0.788857
+[PASS] finite_SSIM: NaN=0 Inf=0
+[PASS] range_SSIM: mean=1.410612 ∈ [-2.0, 2.0] (Evaluator.SSIM = ssim(f,ir)+ssim(f,vi),各∈[-1,1];可>1(如基线的 1.34),非错误)
+[PASS] order_SSIM: min=1.026353 <= mean=1.410612 <= max=1.800277
+[INFO] fused_images_count: 由目录走查核对(§6),本报告不检查

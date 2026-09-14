@@ -1,0 +1,4 @@
+Resolution,N,FLOPs_G,MACs_G,Tool,ToolVersion,Batch,ForwardPath,SpecialOpHandling
+128,16384,44.167,22.084,thop,0.1.1,1,"E(vis),E(ir) → BF(fI_B+fV_B), DF(fI_D+fV_D) → D(vis, fF_B, fF_D)",LESS-Mamba(LocalEnhancedVSSBlock)自定义算子未被 thop 计数;与 FusionMamba 同口径
+256,65536,176.668,88.334,thop,0.1.1,1,"E(vis),E(ir) → BF(fI_B+fV_B), DF(fI_D+fV_D) → D(vis, fF_B, fF_D)",LESS-Mamba(LocalEnhancedVSSBlock)自定义算子未被 thop 计数;与 FusionMamba 同口径
+512,262144,706.673,353.337,thop,0.1.1,1,"E(vis),E(ir) → BF(fI_B+fV_B), DF(fI_D+fV_D) → D(vis, fF_B, fF_D)",LESS-Mamba(LocalEnhancedVSSBlock)自定义算子未被 thop 计数;与 FusionMamba 同口径

@@ -1,0 +1,3 @@
+已知数据特性（非异常）:
+- IVIF SSIM = SSIM(F,IR) + SSIM(F,VIS), 两源图均高时可达 1.5-1.8, 属 Evaluator 口径正常值
+- M3FD 与 FMB 存在 28 个跨数据集重名 Image_ID (如 00210, 00353), 数据集命名空间冲突, 唯一键以 (Image_ID, Dataset) 联合为准

@@ -1,0 +1,4 @@
+Resolution,Mean_Latency_ms,Std_Latency_ms,Warmup,Repeats,Batch
+128,32.27,0.98,30,100,1
+256,51.69,0.15,30,100,1
+512,OOM_ON_24GB,OOM_ON_24GB,30,100,1

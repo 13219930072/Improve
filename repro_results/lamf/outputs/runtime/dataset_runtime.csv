@@ -1,0 +1,5 @@
+Method,Dataset,N,Total_Inference_Time,Average_Inference_Time
+lamf,TNO,25,7.244,0.29
+lamf,RoadScene,50,5.89,0.118
+lamf,M3FD,300,210.748,0.702
+lamf,FMB,280,164.18,0.586

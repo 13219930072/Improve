@@ -1,0 +1,4 @@
+Resolution,Peak_Memory_MB
+128,1925
+256,7187
+512,OOM_ON_24GB

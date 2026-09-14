@@ -1,0 +1,23 @@
+{
+  "method": "lamf",
+  "network": "LAMF (E): LESS-Mamba + NAFDetailBlock",
+  "year": "2026",
+  "repository": "local (MY-CDDFuse, 本仓库)",
+  "checkpoint": "/home/hyhz/HT/code/MY-CDDFuse/experiments/LAMF_Full/checkpoints/LAMF_Full_Final_07-17-13-19.pth",
+  "checkpoint_sha256": "daf4c626584ac8242d4da675123d6ac447d2292cf3309ac86c04406de4bd0720",
+  "checkpoint_source": "experiments/LAMF_Full/checkpoints/LAMF_Full_Final_07-17-13-19.pth (自训练, 与本服务器2026-07-17实验E一致)",
+  "python": "3.8",
+  "pytorch": "1.13.1+cu117",
+  "cuda": "11.7",
+  "gpu": "NVIDIA RTX 3090 24GB",
+  "dataset_root": "/home/hyhz/HT/test_img",
+  "num_images": 655,
+  "input_order": "(ir, vis) 各 [B,1,H,W], 共享Encoder",
+  "input_range": "[0,1]",
+  "padding": "none (原生分辨率直接前向, fully-convolutional)",
+  "output_postprocess": "min-max → ×255 → uint8 → save PNG → float32 readback",
+  "evaluator": "/home/hyhz/HT/code/MY-CDDFuse/utils/Evaluator.py (EN/SD/SF/MI/SCD/VIF/Qabf/SSIM)",
+  "command": "python repro_results/run_full_eval.py --method lamf",
+  "timestamp": "2026-09-03 13:26:52",
+  "elapsed_sec": 4453.2
+}

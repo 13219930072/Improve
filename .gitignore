@@ -1,0 +1,46 @@
+# ============================================================
+# 大体积产物（可用脚本重新生成，不上传）
+# ============================================================
+# 融合图像（共 ~680MB，脚本可重新生成: repro_results/run_full_eval.py,
+# experiments/viz_pipeline/batch_fuse_lamf.py）
+repro_results/*/outputs/fused_images/
+outputs/fused_images/
+experiments/viz_pipeline/fused_LAMF/
+experiments/viz_pipeline/figures/
+experiments/MMIF-CDDFuse-main/outputs/fused_images/
+# CDDFuse 测试输出的嵌套重复目录（655 张 PNG，纯冗余）
+experiments/MMIF-CDDFuse-main/experiments/
+
+# 压缩包（>100MB 超 GitHub 单文件限制）
+*.7z
+*.zip
+*.tar.gz
+
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ============================================================
+# 日志与临时文件
+# ============================================================
+*.log
+*.tmp
+nohup.out
+/tmp/
+
+# ============================================================
+# IDE
+# ============================================================
+.idea/
+.vscode/
+*.swp
+
+# ============================================================
+# Claude Code 本地配置
+# ============================================================
+.claude/settings.local.json

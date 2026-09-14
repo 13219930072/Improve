@@ -1,0 +1,5 @@
+Method,Dataset,N,Total_Inference_Time,Average_Inference_Time
+cddfuse,TNO,25,8.312,0.332
+cddfuse,RoadScene,50,8.202,0.164
+cddfuse,M3FD,300,187.206,0.624
+cddfuse,FMB,280,107.138,0.383

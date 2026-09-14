@@ -1,0 +1,8 @@
+Group,Params_K,Params_M
+encoder,562.664,0.562664
+base_fusion_LESSMamba,45.824,0.045824
+detail_fusion,18.048000000000002,0.018048
+decoder,207.936,0.207936
+other,0.0,0.0
+trainable,834.472,0.834472
+total,834.472,0.834472

@@ -1,0 +1,4 @@
+Resolution,N,FLOPs_G,MACs_G,Tool,ToolVersion,Batch,ForwardPath,SpecialOpHandling
+128,16384,58.426,29.213,thop,0.1.1,1,"E(vis),E(ir) → BF(fI_B+fV_B), DF(fI_D+fV_D) → D(vis, fF_B, fF_D)",transformer attention 内 matmul 未被 thop 计数;与 FusionMamba 同工具同口径比较
+256,65536,233.702,116.851,thop,0.1.1,1,"E(vis),E(ir) → BF(fI_B+fV_B), DF(fI_D+fV_D) → D(vis, fF_B, fF_D)",transformer attention 内 matmul 未被 thop 计数;与 FusionMamba 同工具同口径比较
+512,262144,934.810,467.405,thop,0.1.1,1,"E(vis),E(ir) → BF(fI_B+fV_B), DF(fI_D+fV_D) → D(vis, fF_B, fF_D)",transformer attention 内 matmul 未被 thop 计数;与 FusionMamba 同工具同口径比较

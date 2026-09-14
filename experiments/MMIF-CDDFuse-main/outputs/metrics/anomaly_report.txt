@@ -1,0 +1,36 @@
+sanity check — method/perimg: INCOMPLETE, rows=75, expected=75
+[PASS] N_total: rows=75, expected=75
+[PASS] N_TNO: n=25, expected=25
+[PASS] N_RoadScene: n=50, expected=50
+[FAIL] N_M3FD: n=0, expected=300
+[FAIL] N_FMB: n=0, expected=280
+[PASS] no_dup_id: unique_pairs=75 rows=75
+[PASS] no_missing_ID_TNO: missing=无
+[PASS] no_missing_ID_RoadScene: missing=无
+[FAIL] no_missing_ID_M3FD: missing_count=300, 前10=['00000', '00011', '00025', '00031', '00033', '00042', '00061', '00071', '00082', '00097'](若该数据集未运行 → 属 INCOMPLETE,非数据异常)
+[FAIL] no_missing_ID_FMB: missing_count=280, 前10=['00043', '00044', '00045', '00046', '00047', '00048', '00049', '00050', '00051', '00085'](若该数据集未运行 → 属 INCOMPLETE,非数据异常)
+[PASS] finite_EN: NaN=0 Inf=0
+[PASS] range_EN: mean=7.325670 ∈ [0.0, 8.0] (信息熵:8bit 灰度 ≤ 8)
+[PASS] order_EN: min=6.406421 <= mean=7.325670 <= max=7.763028
+[PASS] finite_SD: NaN=0 Inf=0
+[PASS] range_SD: mean=51.773254 ∈ [0.0, 255.0] (标准差:uint8 图像 ≤ 255)
+[PASS] order_SD: min=20.866348 <= mean=51.773254 <= max=71.636240
+[PASS] finite_SF: NaN=0 Inf=0
+[PASS] range_SF: mean=15.288294 ∈ [0.0, None] (空间频率 ≥ 0)
+[PASS] order_SF: min=7.605099 <= mean=15.288294 <= max=30.372005
+[PASS] finite_MI: NaN=0 Inf=0
+[PASS] range_MI: mean=2.261032 ∈ [0.0, None] (互信息 ≥ 0)
+[PASS] order_MI: min=0.978772 <= mean=2.261032 <= max=3.422676
+[PASS] finite_SCD: NaN=0 Inf=0
+[PASS] range_SCD: mean=1.790547 ∈ [-2.0, 2.0] (corr(f,ir)-corr(f,vi),各∈[-1,1])
+[PASS] order_SCD: min=1.310923 <= mean=1.790547 <= max=1.957825
+[PASS] finite_VIF: NaN=0 Inf=0
+[PASS] range_VIF: mean=0.719195 ∈ [0.0, None] (视觉信息保真 ≥ 0)
+[PASS] order_VIF: min=0.404147 <= mean=0.719195 <= max=1.064100
+[PASS] finite_Qabf: NaN=0 Inf=0
+[PASS] range_Qabf: mean=0.528935 ∈ [0.0, None] (边缘保持 ≥ 0(overflow 警告属正常,见文档))
+[PASS] order_Qabf: min=0.347440 <= mean=0.528935 <= max=0.695956
+[PASS] finite_SSIM: NaN=0 Inf=0
+[PASS] range_SSIM: mean=1.348170 ∈ [-2.0, 2.0] (Evaluator.SSIM = ssim(f,ir)+ssim(f,vi),各∈[-1,1];可>1(如基线的 1.34),非错误)
+[PASS] order_SSIM: min=1.030081 <= mean=1.348170 <= max=1.592663
+[INFO] fused_images_count: 由目录走查核对(§6),本报告不检查

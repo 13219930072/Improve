@@ -1,0 +1,5 @@
+Method,Dataset,N,Total_Inference_Time_S,Average_Inference_Time_MS,Scope
+lamf,TNO,25,7.655296976212412,306.2118790484965,"inference (fuse chain: pad32+E(vis),E(ir) → BF(fI_B+fV_B), DF(fI_D+fV_D) → D(vis, fF_B, fF_D); no I/O, no PNG, no metrics)"
+lamf,RoadScene,50,6.6000114642083645,132.0002292841673,"inference (fuse chain: pad32+E(vis),E(ir) → BF(fI_B+fV_B), DF(fI_D+fV_D) → D(vis, fF_B, fF_D); no I/O, no PNG, no metrics)"
+lamf,M3FD,300,175.45288059161976,584.8429353053992,"inference (fuse chain: pad32+E(vis),E(ir) → BF(fI_B+fV_B), DF(fI_D+fV_D) → D(vis, fF_B, fF_D); no I/O, no PNG, no metrics)"
+lamf,FMB,280,109.17174829216674,389.8991010434526,"inference (fuse chain: pad32+E(vis),E(ir) → BF(fI_B+fV_B), DF(fI_D+fV_D) → D(vis, fF_B, fF_D); no I/O, no PNG, no metrics)"

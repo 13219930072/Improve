@@ -1,0 +1,23 @@
+{
+  "method": "cddfuse",
+  "network": "CDDFuse (CVPR 2023): Restormer + BaseFeatureExtraction + INN Detail",
+  "year": "2023",
+  "repository": "https://github.com/Zhaozixiang1228/MMIF-CDDFuse",
+  "checkpoint": "/home/hyhz/HT/code/MY-CDDFuse/experiments/MMIF-CDDFuse-main/models/CDDFuse_IVF.pth",
+  "checkpoint_sha256": "bde39a766e6e7f9f3a25bb62f1682ebf5b090258bab47aa374660d4ada2d912c",
+  "checkpoint_source": "CDDFuse 官方仓库 MMIF-CDDFuse-main/models/CDDFuse_IVF.pth (官方复现库内置权重)",
+  "python": "3.8",
+  "pytorch": "1.13.1+cu117",
+  "cuda": "11.7",
+  "gpu": "NVIDIA RTX 3090 24GB",
+  "dataset_root": "/home/hyhz/HT/test_img",
+  "num_images": 655,
+  "input_order": "(ir, vis) 各 [B,1,H,W], 共享Encoder",
+  "input_range": "[0,1]",
+  "padding": "none (原生分辨率直接前向, fully-convolutional)",
+  "output_postprocess": "min-max → ×255 → uint8 → save PNG → float32 readback",
+  "evaluator": "/home/hyhz/HT/code/MY-CDDFuse/utils/Evaluator.py (EN/SD/SF/MI/SCD/VIF/Qabf/SSIM)",
+  "command": "python repro_results/run_full_eval.py --method cddfuse",
+  "timestamp": "2026-09-03 14:36:25",
+  "elapsed_sec": 4114.3
+}

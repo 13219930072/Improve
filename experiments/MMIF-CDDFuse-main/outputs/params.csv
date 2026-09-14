@@ -1,0 +1,8 @@
+Group,Params_K,Params_M
+encoder,599.144,0.599144
+base_fusion,363.016,0.363016
+detail_fusion,18.176000000000002,0.018176
+decoder,207.936,0.207936
+other,0.0,0.0
+trainable,1188.272,1.188272
+total,1188.272,1.188272

@@ -1,0 +1,6 @@
+Component,Total_Params,Trainable_Params
+Encoder,599144,599144
+BaseFuse(Transformer),363016,363016
+DetailFuse(INN),18176,18176
+Decoder,207936,207936
+TOTAL,1188272,1188272

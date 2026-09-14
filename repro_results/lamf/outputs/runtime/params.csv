@@ -1,0 +1,6 @@
+Component,Total_Params,Trainable_Params
+Encoder,562664,562664
+BaseFuse(LESS-Mamba),45824,45824
+DetailFuse(NAFDetail),18048,18048
+Decoder,207936,207936
+TOTAL,834472,834472
