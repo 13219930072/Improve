@@ -1,0 +1,9 @@
+# LAMF CPU 部署依赖（香橙派 5 Plus / ARM64）
+# PyTorch CPU 版（ARM64）安装:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+torch>=1.13
+numpy
+opencv-python
+# 以下为 net.py (Restormer Encoder/Decoder) 所需
+einops
+timm

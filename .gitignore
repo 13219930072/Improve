@@ -1,15 +1,16 @@
 # ============================================================
 # 大体积产物（可用脚本重新生成，不上传）
 # ============================================================
-# 融合图像（共 ~680MB，脚本可重新生成: repro_results/run_full_eval.py,
-# experiments/viz_pipeline/batch_fuse_lamf.py）
-repro_results/*/outputs/fused_images/
-outputs/fused_images/
-experiments/viz_pipeline/fused_LAMF/
-experiments/viz_pipeline/figures/
-experiments/MMIF-CDDFuse-main/outputs/fused_images/
+# 融合图像（共 ~500MB，可重生成）
+#   03_效率实验/复现脚本/run_full_eval.py
+#   06_图表/viz_pipeline/batch_fuse_lamf.py
+04_复现对比/LAMF/outputs/fused_images/
+04_复现对比/CDDFuse/outputs/fused_images/
+03_效率实验/规范输出_padded/fused_images/
+06_图表/候选图选图/
+04_复现对比/CDDFuse官方代码/outputs/fused_images/
 # CDDFuse 测试输出的嵌套重复目录（655 张 PNG，纯冗余）
-experiments/MMIF-CDDFuse-main/experiments/
+04_复现对比/CDDFuse官方代码/experiments/
 
 # 压缩包（>100MB 超 GitHub 单文件限制）
 *.7z
